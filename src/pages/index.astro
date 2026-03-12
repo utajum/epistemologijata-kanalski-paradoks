@@ -1,0 +1,516 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Епистемологија на добивање информации за хакерски настани">
+  <div class="page-accent-top"></div>
+  <article class="article">
+    <header class="article-header">
+      <h1>Епистемологија на добивање информации за хакерски настани низ призмата на мултидимензионалните комуникациски канали</h1>
+    </header>
+
+    <div class="article-intro">
+      <p>Во современите технолошки заедници, особено во хакерските и maker-културните екосистеми, информацијата за настани не се движи низ еден централен канал, туку низ мрежа од паралелни, често преклопени комуникациски простори. Епистемологијата на дознавање – односно начинот на кој поединецот доаѓа до знаење дека некој настан се случува – станува функција на неговата позиција во таа комуникациска мрежа.</p>
+    </div>
+
+    <div class="divider">⁂</div>
+
+    <section class="section">
+      <h2>1. Дистрибуирана продукција на информација</h2>
+      <p>Хакерските настани ретко имаат централизирана комуникација. Наместо тоа, информацијата се продуцира и циркулира низ повеќе канали:</p>
+      <ul class="channel-list">
+        <li>чат платформи (Discord, Slack, Matrix)</li>
+        <li>социјални мрежи (Twitter/X, Bluesky, Mastodon)</li>
+        <li>лични мрежи (DM, приватни групи)</li>
+        <li>физички простори (makerspace, coworking)</li>
+        <li>случајни разговори</li>
+      </ul>
+      <p>Овој полицентричен модел значи дека „знаењето за настан" не е универзално достапно, туку локално конструирано. Ако некој не е присутен во конкретен канал, за него настанот ефективно не постои.</p>
+    </section>
+
+    <div class="divider">· · ·</div>
+
+    <section class="section">
+      <h2>2. Каналска фрагментација</h2>
+      <p>Клучен проблем е фрагментацијата на комуникацијата. Организаторите можеби комуницираат во свој интерен канал, додека просторот каде се одржува настанот има сопствен комуникациски слој.</p>
+      <div class="callout">
+        <p>На пример:</p>
+        <ul>
+          <li>заедницата има свој Discord</li>
+          <li>просторот има друг Discord</li>
+          <li>некој трет канал има announcements</li>
+          <li>дел од луѓето следат само Twitter</li>
+        </ul>
+      </div>
+      <p>Така се појавува <strong>епистемолошка асиметрија</strong>: некои членови на заедницата имаат висока информативна резолуција, додека други се систематски исклучени од текот на настаните.</p>
+    </section>
+
+    <div class="divider">· · ·</div>
+
+    <section class="section">
+      <h2>3. Социјалниот граф како филтер на знаење</h2>
+      <p>Во вакви екосистеми, знаењето за настани често доаѓа преку социјални врски, а не преку официјални објави.</p>
+      <p>Тоа значи дека:</p>
+      <ul class="insight-list">
+        <li>луѓето „што висат" во каналите знаат</li>
+        <li>луѓето „што познаваат некого" дознаваат</li>
+        <li>луѓето надвор од тие графови остануваат uninformed</li>
+      </ul>
+      <div class="callout">
+        <p>Ова создава феномен што може да се нарече <strong>herding nerds problem</strong> – организациска тешкотија да се синхронизираат независни актери со различни комуникациски навики.</p>
+      </div>
+    </section>
+
+    <div class="divider">· · ·</div>
+
+    <section class="section">
+      <h2>4. Епистемолошки модели на информираност</h2>
+      <p>Во пракса постојат неколку начини на кои поединец може да дојде до информација за настан:</p>
+      <div class="models-grid">
+        <div class="model-card">
+          <span class="model-number">1</span>
+          <h3>Каналска информираност</h3>
+          <p>чита конкретен канал (Discord, mailing list)</p>
+        </div>
+        <div class="model-card">
+          <span class="model-number">2</span>
+          <h3>Алгоритамска информираност</h3>
+          <p>социјална мрежа му сервира пост</p>
+        </div>
+        <div class="model-card">
+          <span class="model-number">3</span>
+          <h3>Мрежна информираност</h3>
+          <p>пријател му кажува</p>
+        </div>
+        <div class="model-card">
+          <span class="model-number">4</span>
+          <h3>Просторна информираност</h3>
+          <p>дознава бидејќи физички е во просторот</p>
+        </div>
+        <div class="model-card">
+          <span class="model-number">5</span>
+          <h3>Архивска информираност</h3>
+          <p>централен календар или сајт со настани</p>
+        </div>
+      </div>
+      <p>Првите четири се <em>емергентни</em>, додека последниот е <em>институционален</em>.</p>
+    </section>
+
+    <div class="divider">· · ·</div>
+
+    <section class="section">
+      <h2>5. Централизација како решение</h2>
+      <p>Поради оваа мултиканална комплексност, често се појавува идејата за централен агрегатор на настани – веб-сајт или календар каде што сите настани се листани.</p>
+      <p>Таквиот систем не ја заменува комуникацијата во каналите, туку функционира како <strong>епистемолошки сидро</strong>: место каде што може да се провери „што се случува".</p>
+      <div class="callout">
+        <p>Со други зборови, тоа е обид да се трансформира хаотичниот stream на комуникација во структурирано знаење.</p>
+      </div>
+    </section>
+
+    <div class="divider">· · ·</div>
+
+    <section class="section">
+      <h2>6. Парадоксот на изборот на канал</h2>
+      <p>На крајот, прашањето не е само дали некој објавил настан, туку <strong>каде</strong> го објавил.</p>
+      <p>Кога една заедница избира платформа (на пример Discord), таа имплицитно поставува епистемолошка бариера: за да се знае што се случува, мора да се учествува во таа инфраструктура.</p>
+      <div class="callout emphasis">
+        <p>Така, информираноста станува функција на <strong>платформска припадност</strong>, а не само на интерес.</p>
+      </div>
+    </section>
+
+    <footer class="article-footer">
+      <div class="footer-line"></div>
+      <p class="footer-meta">Март 2026 · Скопје</p>
+      <p class="footer-about">Есеј за епистемолошките предизвици на информирањето во дистрибуирани технолошки заедници.</p>
+    </footer>
+  </article>
+</Layout>
+
+<style>
+  /* ========================================
+     Global Reset & Base
+     ======================================== */
+  :global(*) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :global(body) {
+    background-color: #faf9f6;
+    color: #2d2d2d;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  :global(::selection) {
+    background-color: rgba(42, 127, 98, 0.2);
+    color: #1a1a1a;
+  }
+
+  /* ========================================
+     Page Accent Top Bar
+     ======================================== */
+  .page-accent-top {
+    height: 4px;
+    background: linear-gradient(90deg, #2a7f62 0%, #3bab85 50%, #2a7f62 100%);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+
+  /* ========================================
+     Article Container
+     ======================================== */
+  .article {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 4rem 2rem 3rem;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  /* ========================================
+     Header
+     ======================================== */
+  .article-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 3px solid #2a7f62;
+  }
+
+  .article-header h1 {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+  }
+
+  /* ========================================
+     Intro
+     ======================================== */
+  .article-intro {
+    margin-bottom: 2.5rem;
+  }
+
+  .article-intro p {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 1.15rem;
+    line-height: 1.85;
+    color: #3a3a3a;
+    font-style: italic;
+  }
+
+  /* ========================================
+     Sections
+     ======================================== */
+  .section {
+    margin-bottom: 2rem;
+  }
+
+  .section h2 {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 1.2rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border-left: 4px solid #2a7f62;
+    line-height: 1.35;
+  }
+
+  .section p {
+    font-size: 1.08rem;
+    line-height: 1.8;
+    color: #2d2d2d;
+    margin-bottom: 1.2em;
+  }
+
+  .section p:first-of-type::first-letter {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 3.2em;
+    float: left;
+    line-height: 0.8;
+    padding-right: 0.12em;
+    padding-top: 0.07em;
+    color: #2a7f62;
+    font-weight: 700;
+  }
+
+  .section p strong {
+    color: #1a1a1a;
+    font-weight: 600;
+  }
+
+  .section p em {
+    font-style: italic;
+    color: #3a3a3a;
+  }
+
+  /* ========================================
+     Lists
+     ======================================== */
+  .channel-list,
+  .insight-list {
+    list-style: none;
+    margin: 1.2em 0 1.5em 0;
+    padding: 0;
+  }
+
+  .channel-list li,
+  .insight-list li {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    padding: 0.4em 0 0.4em 1.8em;
+    position: relative;
+    color: #2d2d2d;
+  }
+
+  .channel-list li::before,
+  .insight-list li::before {
+    content: '';
+    position: absolute;
+    left: 0.5em;
+    top: 0.85em;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #2a7f62;
+    opacity: 0.7;
+  }
+
+  /* ========================================
+     Callout Box
+     ======================================== */
+  .callout {
+    background: linear-gradient(135deg, #f0f7f4, #f7faf8);
+    border-left: 4px solid #2a7f62;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5em 0;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .callout p {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #2d2d2d;
+    margin-bottom: 0.6em;
+  }
+
+  .callout p:last-child {
+    margin-bottom: 0;
+  }
+
+  .callout p::first-letter {
+    font-size: inherit !important;
+    float: none !important;
+    padding: 0 !important;
+    color: inherit !important;
+    font-weight: inherit !important;
+    font-family: inherit !important;
+    line-height: inherit !important;
+  }
+
+  .callout ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5em 0 0 0;
+  }
+
+  .callout ul li {
+    font-size: 1.02rem;
+    line-height: 1.7;
+    padding: 0.2em 0 0.2em 1.5em;
+    position: relative;
+  }
+
+  .callout ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: #2a7f62;
+    font-weight: 600;
+  }
+
+  .callout.emphasis {
+    background: linear-gradient(135deg, #eef6f3, #e8f2ee);
+    border-left-width: 5px;
+  }
+
+  .callout.emphasis p {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  /* ========================================
+     Models Grid
+     ======================================== */
+  .models-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5em 0 2em;
+  }
+
+  .model-card {
+    background: #ffffff;
+    border: 1px solid #e8e8e4;
+    border-radius: 10px;
+    padding: 1.2rem;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    position: relative;
+  }
+
+  .model-card:hover {
+    box-shadow: 0 4px 16px rgba(42, 127, 98, 0.12);
+    transform: translateY(-2px);
+  }
+
+  .model-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: #2a7f62;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .model-card h3 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.4rem;
+    line-height: 1.35;
+  }
+
+  .model-card p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #555;
+    margin: 0;
+  }
+
+  .model-card p::first-letter {
+    font-size: inherit !important;
+    float: none !important;
+    padding: 0 !important;
+    color: inherit !important;
+    font-weight: inherit !important;
+    font-family: inherit !important;
+    line-height: inherit !important;
+  }
+
+  /* ========================================
+     Dividers
+     ======================================== */
+  .divider {
+    text-align: center;
+    margin: 2.5rem 0;
+    color: #c0bfb8;
+    font-size: 1.2rem;
+    letter-spacing: 0.5em;
+    user-select: none;
+  }
+
+  /* ========================================
+     Footer
+     ======================================== */
+  .article-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+  }
+
+  .footer-line {
+    width: 60px;
+    height: 3px;
+    background: #2a7f62;
+    margin: 0 auto 1.5rem;
+    border-radius: 2px;
+  }
+
+  .footer-meta {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-about {
+    text-align: center;
+    font-size: 0.92rem;
+    color: #777;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    line-height: 1.6;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  /* ========================================
+     Responsive
+     ======================================== */
+  @media (max-width: 768px) {
+    .article {
+      padding: 3rem 1.2rem 2rem;
+    }
+
+    .article-header h1 {
+      font-size: 1.75rem;
+    }
+
+    .article-intro p {
+      font-size: 1.05rem;
+    }
+
+    .section h2 {
+      font-size: 1.35rem;
+    }
+
+    .section p {
+      font-size: 1rem;
+    }
+
+    .section p:first-of-type::first-letter {
+      font-size: 2.6em;
+    }
+
+    .models-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .callout {
+      padding: 1rem 1.2rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .article {
+      padding: 2.5rem 1rem 1.5rem;
+    }
+
+    .article-header h1 {
+      font-size: 1.5rem;
+    }
+
+    .section h2 {
+      font-size: 1.2rem;
+      padding-left: 0.8rem;
+    }
+  }
+</style>

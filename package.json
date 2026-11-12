@@ -11,6 +11,9 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "astro": "^6.0.4"
+    "astro": "^7.4.11"
+  },
+  "devDependencies": {
+    "wrangler": "^4.160.1"
   }
 }

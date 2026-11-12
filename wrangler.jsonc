@@ -1,0 +1,6 @@
+{
+  "name": "epistemologijata-kanalski-paradoks",
+  "compatibility_date": "2026-11-10",
+  "assets": { "directory": "./dist" },
+  "routes": [{ "pattern": "epistemologijata-kanalski-paradoks.elevatech.xyz", "custom_domain": true }]
+}
